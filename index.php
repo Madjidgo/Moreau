@@ -17,7 +17,7 @@
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
-  
+  <?php require_once 'vue/header.php'; ?>
 
     <body>
         <!--[if lt IE 8]>
@@ -26,10 +26,12 @@
 
         <!-- Add your site or application content here -->
         <p>Hello world! This is HTML5 Boilerplate.</p>
-      <footer>
 
 
-      </footer>
+        <!-- start footer -->
+        <?php require_once 'vue/footer.php'; ?>
+        <!-- end footer -->
+
         <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
         <script src="js/plugins.js"></script>
@@ -43,7 +45,10 @@
             e.src='https://www.google-analytics.com/analytics.js';
             r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
             ga('create','UA-XXXXX-X','auto');ga('send','pageview');
-        </script
+        </script>
         <script src="materialize/js/materialize.min.js"></script>
+        <script>
+           $( document ).ready(function(){ $(".button-collapse").sideNav();})
+        </script>
     </body>
 </html>
