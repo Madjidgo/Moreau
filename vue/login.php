@@ -3,7 +3,7 @@
 <p><?php if(isset($erreur)) echo $erreur ?></p>
     <div class="row">
 <!-- manque  la redirection -->
-  <form class="col s12" action="#" method="post" >
+  <form class="col s12" action="connection.php" method="post" >
 
   <div class="row">
   <div class="input-field col m12 col s12 col l6 ">

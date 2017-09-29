@@ -10,7 +10,7 @@ session_start();
             include '../modele/verifConnection.php';
 
 
-          $req =  verifConnection(  $name,$password);
+          $req =  verifConnection( $name,$password);
 
           if(!$req -> fetch()) {
 

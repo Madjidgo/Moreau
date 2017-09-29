@@ -1,13 +1,13 @@
 <?php
 if(isset($_GET['section']) && $_GET['section'] == "connexions"){
-  include 'connection.php';
+  include 'vue/login.php';
 } else {
 
 if(!isset($_SESSION['name'])){
 include 'vue/vueIndex.php';
 }
 else {
-echo "connecté";
+include'vue/projet.php';
 }
 
 }

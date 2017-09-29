@@ -1,9 +1,9 @@
 
         <?php session_start() ;
-        include 'vue/header.php';
-        include 'controleur/indexControleur.php';
+        require_once 'vue/header.php';
+        require 'controleur/indexControleur.php';
         ?>
-
+  
 
 
 

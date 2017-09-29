@@ -1,5 +1,5 @@
-
 <?php
+session_start();
 try
 
 {
@@ -15,7 +15,8 @@ catch (Exception $e)
         die('Erreur : ' . $e->getMessage());
 
 }
-function paswword(){
+
+
 if(isset($_POST['submit']))
 {
 
@@ -61,7 +62,7 @@ $erreur = 'Verifier vos infos';
 }
 
 }
-}
+
 
  ?>
 
