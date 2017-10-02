@@ -25,15 +25,16 @@
  <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
 
 <ul class="right hide-on-med-and-down">
-  <a class="btn-floating btn-large waves-effect waves-light black"><i class="material-icons">add</i></a>
-  <li><a href="badges.html"><i class="material-icons">view_module</i></a></li>
-  <li><a href="destruction.php"><i class="material-icons">refresh</i></a></li>
+  <li><a href="destruction.php" class="btn-floating btn waves-effect waves-light black"><i class="material-icons">close</i></a></li>
+
+  <li><a ><i class="material-icons">refresh</i></a></li>
 
 </ul>
 
  <ul class="side-nav" id="mobile-demo">
+<li><a href="destruction.php" class="btn-floating btn-large waves-effect waves-light black"><i class="material-icons">add</i></a></li>
 <li><a href="sass.html"><i class="material-icons">search</i></a></li>
-<li><a href="badges.html"><i class="material-icons">view_module</i></a></li>
+
 <li><a href="destruction.php"><i class="material-icons">refresh</i></a></li>
 </ul>
 
