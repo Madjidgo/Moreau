@@ -31,3 +31,10 @@ function insertProjet($admin_id,$projet){
 
  
 // delete
+function delete($id){
+	$bdd2 = connectSql();
+	$req2 = $bdd2 -> prepare('DELETE FROM Projets WHERE id=:id)');
+	$req2->execute(array(
+		'id' => $id
+	));
+}

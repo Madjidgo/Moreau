@@ -19,7 +19,7 @@
   </tr>
 </tbody>
 
-<form class="" action="index.php" method="post">
+<form class="" action="controleur/supprime.php" method="post">
   <input type="number" name="admin_id" value="" placeholder="number">
   <input type="text" name="projet" value="" placeholder="projet">
 
